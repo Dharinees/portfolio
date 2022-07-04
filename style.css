@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100&family=Mingzat&family=Splash&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    background-color: antiquewhite;
+    font-size: 10px;
+    font-family: 'Mingzat', sans-serif;
+    
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-content: space-between;
+    align-items: center;
+    list-style: none;
+
+}
+
+#logo img{
+    width:100px;
+    height:100px;
+}
+
+
+nav ul li{
+    margin: 0 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:black;
+}
+
+nav ul li ul a:hover{
+    color:brown;
+}
+
+.header{
+    width:100%;
+    height:25vh;
+    background: black;
+    color:beige;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+}
+
+.bio{
+    display:flex;
+    flex-direction: row;
+}
+
+#bio img{
+    border: 1px solid white;
+    width: 300px;
+    height:295px;
+    margin:100px;
+    display:flex;
+    align-items:left;
+
+}
+
+#home{
+    background: rgb(247, 85, 85);
+    color:white;
+    height: 450px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+header div p{
+    font-size: 1.5em;
+    font-weight: 200;
+}
+
+h1,
+h3,
+h4{
+    font-weight: 700;
+}
+
+h2{
+    font-weight: 500;
+}
+h1{
+    font-size: 5em;
+}
+h2{
+    font-size: 4em;
+}
+h3{
+font-size: 2.5em;
+}
+h3{
+    font-size: 1.8em;
+}
+
+#bio{
+    display: flex;
+    align-items:center;
+}
+
+#bio article *{
+    margin: 20px;
+}
+
+.break{
+    display:block;
+}
+
+#bio img{
+    width:250px;
+    height: 205px;
+    border-radius: 50%;
+    margin: 100px;
+}
+p{
+    font-size: 1.5em;
+}
+hr{
+    width: 400px;
+}
+
+#port{
+    background:navy;
+    background-color: black;
+    color:white;
+}
+
+#port,
+#ski{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:50px;
+}
+#port div{
+    display:flex;
+    justify-content: space-around;
+    margin:10px 0;
+    width: 100%;
+}
+
+#port h3,
+p, hr{
+    margin-bottom: 20px;
+}
+
+#port div article{
+    background: white;
+    color:black;
+    height: 200px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 10px;
+}
+#port article img{
+    width: 50px;
+    height: 50px;
+}
+
+#port div article p{
+    padding: 0 5px;
+}
+
+#ski-container{
+    display: flex;
+    justify-content: space-around;
+    width:100%;
+}
+
+#ski-container div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#ski ul{
+    list-style:none;
+}
+
+#ski ul li{
+    margin:10px 0;
+}
+
+progress[value]{
+    height: 10px;
+    width: 350px;
+    -webkit-appearance:none;
+}
+
+progress[value]::-webkit-progress-bar{
+    background-color: grey;
+    border-radius: 2px; 
+     box-shadow: 0 2px 5px rgba(0,0,0,0.25 inset);
+}
+
+::-webkit-progress-value{
+    background-color: #f05136;
+}
+
+#ski ul{
+    font-size: 1.5em;;
+}
+
+#contact{
+    background-color: rgb(208, 92, 92);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.input{
+    line-height: 2em;
+    width:350px;
+    border-color:rgb(26, 13, 26);
+    margin: 20px 0;
+}
+
+#contact form{
+    display: flex;
+    flex-direction: column;
+    justify-self:center;
+    align-items: center;
+}
